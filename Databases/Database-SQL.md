@@ -45,7 +45,20 @@
 
 - `SQL/Relational Type Databases` : organize information in tables.
 - `NoSQL` : can take a few different forms and are used for large sets of distributed data (like for use in micro service architectures).
+  There are several types of databases, each with their own specific use cases and features. Some of the most common types include:
 
+  1.  Relational databases: These are the most widely used type of database, and they store data in tables with rows and columns. Relationships between tables are    established using primary and foreign keys. Examples of relational databases include MySQL, Oracle, and Microsoft SQL Server.
+    
+  2.  NoSQL databases: These databases are designed to handle large amounts of unstructured or semi-structured data. They do not use a fixed schema and do not rely on tables, rows, and columns to store data. Examples of NoSQL databases include MongoDB, Cassandra, and Redis.
+    
+  3.  Object-oriented databases: These databases are designed to store and manipulate objects, which are a collection of data and methods. They are typically used in object-oriented programming languages such as Java and C++. Examples of object-oriented databases include Gemstone and Zope.
+    
+  4.  Graph databases: These databases are used to store and query data in the form of a graph, with nodes and edges representing entities and relationships. They are particularly well-suited for use cases such as social networks and recommendation systems. Examples of graph databases include Neo4j and ArangoDB.
+    
+  5.  Time-series databases: These databases are optimized for storing and querying time-stamped data, and they are commonly used for monitoring and tracking systems. Examples of time-series databases include InfluxDB and OpenTSDB.
+    
+  6.  In-memory databases: These databases store data in RAM, which allows for faster data access and manipulation. They are often used for real-time analytics, high-performance transaction systems, and other use cases that require low latency. Examples of in-memory databases include SAP HANA and MemSQL.
+  
   - `Key-Value store`
   - `Document store`
   - `Column-oriented`
